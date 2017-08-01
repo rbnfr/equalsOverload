@@ -18,10 +18,10 @@ namespace ConsoleApp2
 
             var Pedro = new Person() { Name = "Pedro" };
             var Juan = new Person() { Name = "Pedro" };
-            var hermanos = Pedro + Juan;
+            /*var hermanos = Pedro + Juan;
 
             var codePedro = Pedro.GetHashCode();//Obtener el número de hash
-            var codeJuan = Juan.GetHashCode();
+            var codeJuan = Juan.GetHashCode();*/
             
             var iguales = Pedro.Equals(Juan);// Devuelve false, porque no está comparando la propiedad name --> sobrecarga operador --> devuelve true si los nombres son iguales
             Console.WriteLine(iguales);
